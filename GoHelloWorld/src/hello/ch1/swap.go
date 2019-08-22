@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/**
+	利用指针交换值
+ */
 func swap(a, b *int) {
 	// 取a指针的值, 赋给临时变量t
 	t := *a

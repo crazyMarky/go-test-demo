@@ -7,6 +7,9 @@ import (
 
 type IP []byte
 
+/**
+	作用域
+ */
 func main() {
 	environ := os.Environ()
 	dir, _ := os.Getwd() //

@@ -5,6 +5,9 @@ import (
 	"math"
 )
 
+/**
+基础类型的转换
+ */
 func main() {
 	// 输出各数值范围
 	fmt.Println("int8 range:", math.MinInt8, math.MaxInt8)

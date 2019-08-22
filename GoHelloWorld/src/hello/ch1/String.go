@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/**
+	遍历字符串
+ */
 func main() {
 
 	theme := "狙击 start"

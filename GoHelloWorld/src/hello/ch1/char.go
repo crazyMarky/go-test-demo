@@ -2,6 +2,9 @@ package main
 
 import fmt "fmt"
 
+/**
+字符的各种输出
+ */
 func main() {
 	var ch int = '\u0041'
 	var ch2 int = '\u03B2'

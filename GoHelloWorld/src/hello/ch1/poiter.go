@@ -2,6 +2,10 @@ package main
 import (
 	"fmt"
 )
+
+/**
+指针的基础操作
+ */
 func main() {
 
 	//从指针获取指针指向的值

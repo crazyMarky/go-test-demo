@@ -9,6 +9,9 @@ import (
 	"os"
 )
 
+/**
+画一个sin
+ */
 func main() {
 
 	// 图片大小
