@@ -2,15 +2,19 @@ package main
 
 import "fmt"
 
+/**
+append()为切片添加元素
+ */
 func main() {
-	var numbers4 = [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	ints := numbers4[2:5:6]
-	s1 := append(ints, 10)
-	s2 := append(ints, 10,12)
-	s3 := append(ints, 10,12,14)
-	print(s1)
-	print(s2)
-	print(s3)
+	var a []int
+	a = append(a, 1) // 追加1个元素
+	print(a)
+
+	a = append(a, 1, 2, 3) // 追加多个元素, 手写解包方式
+	print(a)
+
+	a = append(a, []int{1,2,3}...) // 追加一个切片, 切片需要解包
+	print(a)
 }
 
 func print(s []int)  {
