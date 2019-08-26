@@ -28,4 +28,6 @@ func main() {
 	fmt.Printf("address: %p\n", ptr2)
 	fmt.Printf("value type: %T\n", ptr2)
 	fmt.Printf("value: %s\n", ptr2)
+	fmt.Printf("value: %s\n", *ptr2)
+	fmt.Printf("value: %s\n", **ptr2)
 }

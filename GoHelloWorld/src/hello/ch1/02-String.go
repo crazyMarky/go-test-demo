@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /**
-	遍历字符串
+	遍历字符串，用ASCII和Unicode遍历的不同
  */
 func main() {
 

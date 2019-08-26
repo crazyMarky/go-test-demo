@@ -2,10 +2,11 @@ package main
 
 import "fmt"
 
-
+/**
+	打印值，体会一下go的声明函数和返回值
+ */
 func main() {
 	sum(1,2)
-	fmt.Println()
 }
 
 func sum(a,b int )(c , d int){
