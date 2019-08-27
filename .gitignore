@@ -12,3 +12,5 @@
 *.out
 ./GoHelloWorld/.idea/*
 /GoHelloWorld/.idea
+*.iml
+
