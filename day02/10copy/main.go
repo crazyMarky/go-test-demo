@@ -1,6 +1,6 @@
 package main
 
-import "xiaomingkeji.top/laonanhai/day02/utils"
+import "github.com/crazyMarky/go-test-demo/utils"
 
 //copy
 func main() {

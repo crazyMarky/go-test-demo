@@ -22,6 +22,10 @@ func f5() func(int,int) int {
 	return ret
 }
 
+func f6() (int,int)  {
+	return 1,2
+}
+
 func main() {
 	//函数也是类型
 	a := f1
@@ -32,4 +36,10 @@ func main() {
 	a3 := f5()
 
 	fmt.Println(a3(1,2))
+
+	i, _ := f6()
+
+	fmt.Println(i)
+
+
 }
